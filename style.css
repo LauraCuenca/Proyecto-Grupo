@@ -1,33 +1,78 @@
+/* Estilos para la NavBar */
+.navbar {
+  background-color:  rgb(58, 12, 163) !important;
+}
 
-/* Estilos para las cards de Articulos */
-.card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 80%;
-    margin-left: 50px;
-    margin-right: 0px;
-    margin-top: 50px;
-    margin-bottom: 1rem;
-  }
-  .card-img-top {
-    object-fit: cover; 
-    height: 250px; 
-    width: 100%; 
-  }
-  .custom-size {
-    width: 150px; 
-    height: 100px; 
-    object-fit: cover; 
-  }
-  .card-body {
-    flex: 1 1 auto; 
-  }
-  .card-text {
-    margin-bottom: 0; 
-  }
-  
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-toggle {
+    color: rgb(76, 201, 240); 
+}
+ /* Estilos para el fondo */
 
+ .custom-background {
+  background-color: rgb(72, 149, 239);
+}
+
+
+ /* Estilos para las cards de Articulos */
+ .card {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  width: 70;
+  margin-right: 10%;
+  margin-top: 50px;
+  background-color: rgb(223, 229, 229);
+}
+.card-img-top {
+  object-fit: cover; 
+  height: 250px; 
+  width: 100%; 
+}
+.custom-size {
+  width: 150px; 
+  height: 100px; 
+  object-fit: cover; 
+}
+.card-body {
+  flex: 1 1 auto; 
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-text {
+  margin-bottom: 0; 
+}
+.row-cols-md-3 {
+  gap: 0.5rem; 
+}
+
+/* Estilos para los botones */
+.custom-button {
+  background-color: rgb(76, 201, 240);
+  color: #000000; 
+  border: none; 
+}
+.custom-button:hover {
+  background-color: rgb(58, 12, 163); 
+  color: #ffffff; 
+}
+#dark-mode-toggle {
+  margin-left: 10px; 
+}
+#cart-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* Ajusta la altura mínima según tus necesidades */
+}
+
+.empty-cart-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
 /* Estilos para el modo oscuro */
 .dark-mode {
     background-color: #121212;
