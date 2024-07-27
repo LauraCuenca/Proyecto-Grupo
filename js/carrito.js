@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = '<p class="empty-cart-message">No hay elementos en el carrito.</p>';
     } else {
-        cartItemsContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevos elementos
+        cartItemsContainer.innerHTML = ''; 
         
         cart.forEach((item, index) => {
             const card = document.createElement('div');
@@ -31,13 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const index = button.getAttribute('data-index');
                 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-                // Eliminar el producto del carrito
                 cart.splice(index, 1);
 
-                // Guardar el carrito actualizado en localStorage
                 localStorage.setItem('cart', JSON.stringify(cart));
 
-                // Actualizar la vista del carrito
                 location.reload();
             });
         });
