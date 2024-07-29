@@ -1,7 +1,8 @@
 # Tienda de Componentes de Computadora
 En el curso Fullstack de Cilsa, desarrollamos una pagina web, en grupos de 4 personas. 
 Esta cuenta, con varias pestañas, como un index, dos categorias, articulos y componentes, un carrito de compras.
-![Sobre Nosotros](https://github.com/user-attachments/assets/3890396a-4502-4f92-9e3d-84453ee326c2)
+![Sobre Nosotros](https://github.com/user-attachments/assets/c920e3f8-14ae-4d73-80e7-6302bb175725)
+
 
 ## Características
 Interfaz Amigable: Diseño moderno y fácil de usar.
@@ -46,7 +47,7 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos para contribuir
 
 ## Contacto
 
-- **Laura Cuenca** - [Github-Laura](https://github.com/LauraCuenca) -
-- **Debora Jabur** - [Github-Debora](https://github.com/DeboraJadur)
+- **Laura Cuenca** - [Github-Laura](https://github.com/LauraCuenca) - laura.cuenca1@gmail.com
+- **Debora Jabur** - [Github-Debora](https://github.com/DeboraJadur) - deborajadur@gmail.com
 - **Emmanuel Sebastián Holotte** - [Github-Emmanuel](https://github.com/Gaz125) 
-- **Bruno Carreras** - [Github-Bruno](https://github.com/BrunoCarreras)
+- **Bruno Carreras** - [Github-Bruno](https://github.com/BrunoCarreras) - bruno.carreras10@hotmail.com
