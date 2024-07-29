@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilos para la NavBar */
+.navbar {
+  background-color:  rgb(58, 12, 163) !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-toggle {
+    color: rgb(77, 156, 180); 
+}
+ /* Estilos para el fondo */
+
+ .custom-background {
+  background-color: rgb(33, 125, 231);
+}
+
+.banercontainer{
+  height: 40vh;
+  width: 100%;
+  overflow: hidden; /* ocultar todo lo que desborda del contenedor*/
+
+
+}
+
+.carousel{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.carousel-item{
+ width: 100%;
+ height: 100%; /* quiero que el carrusel tenga la misma medida que el contenedor*/
+ overflow: hidden;
+
+}
+
+
+
+.carousel-item img{  /* propiedades a la imagenes dentro del carrusel-item*/
+ width: 100%;
+ height: 100%;
+ object-fit: fill; /* no deforma la imagen y la centra*/
+}
+
+h1 {
+  margin-top: 20px; /* Ajusta el valor según sea necesario */
+  font-weight:bold;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ /* Estilos para las cards de Articulos */
+ .card {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  margin-right: 10%;
+  margin-top: 50px;
+  background-color: rgb(223, 229, 229);
+
+  
+}
+.card-img-top {
+  object-fit: cover; 
+  height: 250px; 
+  width: 100%; 
+  overflow: hidden
+}
+.custom-size {
+  width: 150px; 
+  height: 100px; 
+  object-fit: cover; 
+}
+.card-body {
+  flex: 1 1 auto; 
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-text {
+  margin-bottom: 0; 
+  height: 120px;
+}
+
+.row-cols-md-3 {
+  gap: 0.5rem; 
+}
+
+/* Estilos para los botones */
+.custom-button {
+  background-color: rgb(76, 201, 240);
+  color: #000000; 
+  border: none;
+  margin-bottom: 10px;  
+
+}
+.custom-button:hover {
+  background-color: rgb(58, 12, 163); 
+  color: #ffffff; 
+}
+#dark-mode-toggle {
+  margin-left: 10px; 
+}
+#cart-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* Ajusta la altura mínima según tus necesidades */
+}
+
+.empty-cart-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #333;
+  }
+  
+  
