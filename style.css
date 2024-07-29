@@ -1,25 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
 * {
     font-family: "Titillium Web";
     margin: 0;
-    padding: 0;
+    padding: 0;  
 }
-
 
 /* Estilos para la NavBar */
 .navbar {
-  background-color:  rgb(58, 12, 163) !important;
+  background-color: #560bad !important;
 }
-
 .navbar .nav-link,
 .navbar .navbar-brand,
 .navbar .dropdown-toggle {
-    color: rgb(77, 156, 180); 
+    color: rgb(1, 10, 13); 
 }
- /* Estilos para el fondo */
 
+ /* Estilos para el fondo */
  .custom-background {
   background-color: rgb(33, 125, 231);
 }
@@ -28,8 +24,6 @@
   height: 40vh;
   width: 100%;
   overflow: hidden; /* ocultar todo lo que desborda del contenedor*/
-
-
 }
 
 .carousel{
@@ -42,16 +36,12 @@
   width: 100%;
 }
 
-
-
 .carousel-item{
  width: 100%;
  height: 100%; /* quiero que el carrusel tenga la misma medida que el contenedor*/
  overflow: hidden;
 
 }
-
-
 
 .carousel-item img{  /* propiedades a la imagenes dentro del carrusel-item*/
  width: 100%;
@@ -60,10 +50,14 @@
 }
 
 h1 {
-  margin-top: 20px; /* Ajusta el valor según sea necesario */
+  margin-top: 0px; /* Ajusta el valor según sea necesario */
   font-weight:bold;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
 }
 
  /* Estilos para las cards de Articulos */
@@ -75,7 +69,6 @@ h1 {
   margin-top: 50px;
   background-color: rgb(223, 229, 229);
 
-  
 }
 .card-img-top {
   object-fit: cover; 
@@ -139,5 +132,70 @@ h1 {
   .dark-mode .navbar {
     background-color: #333;
   }
-  
-  
+
+  /* Estilos componentes */
+  .tarjeta{
+    margin-bottom: 20px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+a{
+    color: black;
+}
+
+.logo{
+    width: 50px;
+}
+.carrito{
+    width: 30px;
+}
+button{
+    background-color: #4895ef;
+}
+.carrito-contador{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: lightcyan;
+}
+.container{
+padding-top: 50px;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-left: 300px;
+    border-radius: 30px;
+}
+.map-container{
+    width: 80%;
+    height: 500px;
+    position: relative;
+}
+.map-container h2{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 260px;
+}
+.card-body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 200px;
+}
+
+/* Estilos para el carrousel index*/
+.custom-carousel-2 {
+  max-width: 800px; /* Ajusta el ancho máximo del carrusel */
+  max-height: 500px; /* Ajusta el alto máximo del carrusel */
+  margin: auto; /* Centra el carrusel horizontalmente */
+}
+.custom-carousel-2 img {
+  max-height: 500px; /* Ajusta el alto máximo de las imágenes */
+  object-fit: cover; /* Ajusta cómo se comporta la imagen dentro del contenedor */
+}

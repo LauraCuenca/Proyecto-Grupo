@@ -3,94 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./stylec.css">
-    <link rel="stylesheet" href="./stylec.css">
+    <link rel="icon" href="assets/logo/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Componentes</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-custom">
-    <img class="logo" src="./imgc/logo.jpg" alt="">
-    <a class="navbar-brand" href="#">CompUniverso</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./articulos.html">Articulos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./about-us.html">Nosotros</a>
-            </li>
-        </ul>
-    </div>
-    <div class="carrito-container">
-    <img class="carrito" src="./imgc/cart.png" alt="">
-    </div> 
-    <div class="carrito-contador" id="carrito-contador">0</div>
-</nav>
-<body class="body">
-    <h1>Componentes</h1>
+<body class="custom-background">
+    <div id="navbar-container"></div>
+    <h1 class="text-center mt-4">Componentes</h1>
+
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="tarjeta">
-                    <img src="./imgc/placa de video.jpeg" class="card-img-top" alt="">
+                    <img src="assets/img_c/placa de video.jpeg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Placa de video Ventus</h5>
                         <p class="card-text">Placa de video GeForce Ventus 2x RTX 4060</p>
-                        <button onclick="agregarAlCarrito()">Agregar al Carrito</button>
+                        <button class="btn custom-button add-to-cart" data-id="9" data-title="Placa de Video" data-price="ARS 500.000">
+                            Agregar al carrito
+                          </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tarjeta">
-                    <img src="./imgc/placa madre.jpg" class="card-img-top" alt="">
+                    <img src="assets/img_c/placa madre.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Placa madre Asus </h5>
                         <p class="card-text">Placa Madre Asus PRIME a320m-k</p>
-                        <button onclick="agregarAlCarrito()">Agregar al Carrito</button>
+                        <button class="btn custom-button add-to-cart" data-id="10" data-title="Placa madre Asus" data-price="ARS 250.000">
+                            Agregar al carrito
+                          </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tarjeta">
-                    <img src="./imgc/procesador.jpg" class="card-img-top" alt="">
+                    <img src="assets/img_c/procesador.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Procesador AMD</h5>
                         <p class="card-text">Procesador AMD Ryzen 7 4600g</p>
-                        <button onclick="agregarAlCarrito()">Agregar al Carrito</button>
+                        <button class="btn custom-button add-to-cart" data-id="11" data-title="Procesador" data-price="ARS 700.000">
+                            Agregar al carrito
+                          </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tarjeta">
-                    <img src="./imgc/ram.jpg" class="card-img-top" alt="">
+                    <img src="assets/img_c/ram.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Memoria Ram HyperX</h5>
                         <p class="card-text">Memoria Ram HyperX DDR4 de 8GB</p>
-                        <button onclick="agregarAlCarrito()">Agregar al Carrito</button>
+                        <button class="btn custom-button add-to-cart" data-id="12" data-title="Memoria Ram" data-price="ARS 300.000">
+                            Agregar al carrito
+                          </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        let contador = 0;
-        function agregarAlCarrito(){
-            contador++;
-            document.getElementById('carrito-contador').textContent = contador;
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<div class="map-container">
-    <h2>¡Encontranos!</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4667.227908705472!2d-60.6993804302114!3d-31.635696925825624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1722257018778!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">¡Encontranos!</iframe>
-</div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script> 
+    <script src="js/carrito.js"></script> 
 </body>
 </html>
