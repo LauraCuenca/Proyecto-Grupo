@@ -22,7 +22,7 @@ Sigue estos pasos para instalar y configurar el proyecto localmente:
 
 1. Clona el repositorio:
     ```bash
-    git clone [Repositorio] (https://github.com/LauraCuenca/Proyecto-Grupo))
+    git clone [Repositorio] (https://github.com/LauraCuenca/Proyecto-Grupo)
     ```
 2. Navega al directorio del proyecto:
 
