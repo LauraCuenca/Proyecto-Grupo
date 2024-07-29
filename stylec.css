@@ -1,0 +1,69 @@
+.tarjeta{
+    margin-bottom: 20px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #4895ef;
+}
+.navbar-custom{
+    background-color: #560bad;
+}
+.navbar-custom .nav-link{
+    color: black;
+}
+
+a{
+    color: black;
+}
+.body{
+    background-color: #4895ef;
+}
+.logo{
+    width: 50px;
+}
+.carrito{
+    width: 30px;
+}
+button{
+    background-color: #4895ef;
+}
+.carrito-contador{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: lightcyan;
+}
+.container{
+padding-top: 50px;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-left: 300px;
+    border-radius: 30px;
+}
+.map-container{
+    width: 80%;
+    height: 500px;
+    position: relative;
+}
+.map-container h2{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 260px;
+}
+.card-body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 200px;
+}
