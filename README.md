@@ -46,7 +46,7 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos para contribuir
 
 ## Contacto
 
-- **Laura Cuenca** - [Github-Laura](https://github.com/LauraCuenca) - laura.cuenca1@gmail.com
+- **Laura Cuenca** - [Github-Laura](https://github.com/LauraCuenca) -
 - **Debora Jabur** - [Github-Debora](https://github.com/DeboraJadur)
 - **Emmanuel Sebastián Holotte** - [Github-Emmanuel](https://github.com/Gaz125) 
 - **Bruno Carreras** - [Github-Bruno](https://github.com/BrunoCarreras)
