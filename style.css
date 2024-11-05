@@ -191,8 +191,8 @@ iframe{
 
 /* Estilos para el carrousel index*/
 .custom-carousel-2 {
-  max-width: 800px; /* Ajusta el ancho máximo del carrusel */
-  max-height: 500px; /* Ajusta el alto máximo del carrusel */
+  max-width: 900px; /* Ajusta el ancho máximo del carrusel */
+  max-height: 800px; /* Ajusta el alto máximo del carrusel */
   margin: auto; /* Centra el carrusel horizontalmente */
 }
 .custom-carousel-2 img {
